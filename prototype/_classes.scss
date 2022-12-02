@@ -1,0 +1,82 @@
+// Font Colors // 
+
+.fc-medium {
+    color:$color-medium;
+}
+.fc-dark {
+    color:$color-dark;
+}
+.fc-highlight-100 {
+    color:$color-highlight-100;
+}
+.fc-highlight-500 {
+    color:$color-highlight-500;
+}
+.fc-shadow {
+    color:$color-shadow;
+}
+
+// Font Sizes //
+.fs-xx-smal {
+    font-size: $font-xx-small;
+}
+
+.fs-x-small {
+    font-size:$font-x-small;
+}
+.fs-small {
+    font-size:$font-small;
+}
+.fs-medium {
+    font-size:$font-medium;
+}
+.fs-large {
+    font-size:$font-large;
+}
+.fs-x-large {
+    font-size:$font-x-large;
+}
+
+// Font Weights //
+
+.fw-regular {
+    font-weight: $font-regular;
+}
+.fw-medium {
+    font-weight:$font-medium;
+}
+.fw-semi-bold {
+    font-weight:$font-semi-bold;
+}
+.fw-bold {
+    font-weight:$font-bold;
+}
+
+
+//Transformation //
+
+.ft-upper {
+    text-transform: uppercase;
+}
+
+// Background Colors //
+
+.bg-medium {
+    background: $color-medium;
+}
+.bg-dark {
+    background: $color-dark;
+}
+.bg-highlight-100 {
+    background: $color-highlight-100;
+}
+.bg-highlight-500 {
+    background: $color-highlight-500;
+}
+.bg-shadow {
+    background: $color-shadow;
+}
+
+
+
+

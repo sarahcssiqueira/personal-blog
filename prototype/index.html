@@ -6,46 +6,159 @@
 </head>
 
 <body>
-    <header>
-        <h1>Sarah Siqueira</h1>
-        <nav class="primary-nav">
-            <ul role="list">
-                <li>About</li>
-                <li>Blog</li>
-                <li>Projects</li>
-                <li>Lupa Icon</li>
+    <header class="section-flex-header padding-x2">
+        <div class="section-flex-row">
+         <img src="../inc/images/logo icon.png" height="40%" ></img>
+            <div class="section-flex-column">
+                <h1 class="fs-small fc-dark fw-bold">Thinking As A Dev </h1>
+                <p class="fs-x-small fc-medium fw-regular">by Sarah Siqueira</p>
+            </div>
+        </div>
+
+        <nav class="header-nav">
+            <ul role="list" class="header-nav">
+                <li class="fs-small fc-dark fw-medium">About</li>
+                <li class="fs-small fc-dark fw-medium">Blog</li>
+                <li class="fs-small fc-dark fw-medium">Projects</li>
+                <li class="fs-small fc-dark fw-medium"><i class="fa-solid fa-magnifying-glass"></i></li>
             </ul>
         </nav>
-        <button class="mobile-menu-hamburguer">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <button class="mobile-menu-close">
-            <i class="fa-solid fa-xmark"></i>
-        </button>
+        <div class="mobile-nav">
+            <button class="mobile-menu-hamburguer">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <button class="mobile-menu-close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        
     </header>
 
     <main class="container">
-        <section class="inner-section">
-            Professional
-            Frontend WordPress Developer
-            I am a software developer who believes that programming is like 
-            playing LEGO on real life.Let’s get in touch!
-            <img src="" alt="" class="destaque">
-        </section>
         
-        <section class="inner-section">
-            Latest Articles
-            <div class="blog-posts"></div>
-        </section>
-        
-        <section class="inner-section">
-            Latest Projects
+        <section class="inner-section section-flex-row padding-x3">
+            <div>
+                <p class="fs-x-small fc-medium">
+                    Hi! I'm Sarah
+                </p>
+                
+                <h1 class="fs-x-large fc-dark">
+                    Frontend WordPress Developer
+                </h1>
+            
+                <p class="fs-x-small fc-medium">
+                    I am software developer who believes that programming is like  playing LEGO on real life.
+                    On this blog I share new learnings, bugs and challenges on this endless road to become a 
+                    better developer everyday.
+                </p>
 
+                <button class="button padding-x1">
+                    Say Hello!
+                </button>
+            </div>
+
+            <div>
+                <img src="../inc/images/logo.png" alt="" class="">
+            </div>
         </section>
+        
+        <section class="inner-section padding-x3">
+            <h2 class="fs-medium fw-bold fc-highlight-500">
+                Latest Articles
+            </h2>
+            <div class="section-grid-x2">
+                <div class="grid-item">
+                    <img src="../inc/images/Post Default.png"></img>
+                    <div class="section-flex-row">
+                        <p class="fs-xx-small fc-medium fw-medium ft-upper">
+                            Category
+                        </p>
+                        <p class="fs-xx-small fc-medium fw-medium ft-upper">
+                            Date
+                        </p>
+                    </div>
+                    <h3 class="fs-small fw-semi-bold fc-highlight-500">
+                        Minimalist Guide
+                    </h3>
+                    <p class="fs-x-small fw-regular fc-medium">
+                        Lorem Ipsum dolor
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="../inc/images/Post Default.png"></img>
+                    <div class="section-flex-row">
+                        <p class="fs-xx-small fc-medium fw-medium ft-upper">
+                            Category
+                        </p>
+                        <p class="fs-xx-small fc-medium fw-medium ft-upper">
+                            Date
+                        </p>
+                    </div>
+                    <h3 class="fs-small fw-semi-bold fc-highlight-500">
+                        Minimalist Guide
+                    </h3>
+                    <p class="fs-x-small fw-regular fc-medium">
+                        Lorem Ipsum dolor
+                    </p>
+                </div>
+                
+            </div>
+           
+        </section>
+
+        <section class="inner-section padding-x3">
+            <h2 class="fc-highlight-500 fs-medium fw-bold">
+                Latest Projects
+            </h2>
+            <div class="section-grid-x3">
+                <div class="grid-item">
+                    <img src="../inc/images/Post Default.png"></img>
+                    <h3 class="fs-small fw-semi-bold fc-highlight-500">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="fs-x-small fw-regular fc-medium">
+                          Lorem Ipsum
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="../inc/images/Post Default.png"></img>
+                    <h3 class="fs-small fw-semi-bold fc-highlight-500">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="fs-x-small fw-regular fc-medium">
+                          Lorem Ipsum
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="../inc/images/Post Default.png"></img>
+                    <h3 class="fs-small fw-semi-bold fc-highlight-500">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="fs-x-small fw-regular fc-medium">
+                          Lorem Ipsum
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="inner-section padding-x3 section-flex-column">
+            <h2 class="fs-large fc-dark fw-bold">
+                Get in Touch
+            </h2>
+            <div>
+                <button class="button padding-x1">
+                    Contact me
+                </button>
+            </div>
+            
+        </section>
+        
     </main>
 
-    <footer>
-        
+    <footer class="bg-dark">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-github"></i>
+        <i class="fa-brands fa-figma"></i>
     </footer>
 
 </body>

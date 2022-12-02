@@ -1,24 +1,27 @@
-/* Colors */
+// Colors //
 
-$color-light: white;
-$color-medium: #929292;
+$color-light:white;
+$color-medium: #696969;
 $color-dark: #121212;
 $color-highlight-100:#FF669D;
 $color-highlight-500:#A9003D;
 $color-shadow:#E6E6E6;
 
-/* Fonts - Familys, Sizes, Weights */
+// Fonts - Familys, Sizes, Weights //
 
+// Family //
 $font-primary: 'Poppins', sans-serif;
-$font-secondary: 'Inter', sans-serif;
 
+// Size //
+$font-xx-small: 0.75rem;
 $font-x-small: 1rem;
-$font-small: 1.5rem;
-$font-medium: 1.8rem;
+$font-small: 1.25rem;
+$font-medium: 1.5rem;
 $font-large:2rem;
-$font-x-large:3rem;
+$font-x-large:3.375rem;
 
-$font-thin:200;
-$font-regular:300;
-$font-semi-bold:400;
-$font-bold: 600;
+//Weight //
+$font-regular:400;
+$font-medium:500;
+$font-semi-bold:600;
+$font-bold: 700;

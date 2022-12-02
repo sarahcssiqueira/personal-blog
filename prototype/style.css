@@ -1,10 +1,166 @@
-/* Imports */ /* Colors */
-/* Fonts - Familys, Sizes, Weights */
+/* Imports */
+.fc-medium {
+  color: #696969;
+}
+
+.fc-dark {
+  color: #121212;
+}
+
+.fc-highlight-100 {
+  color: #FF669D;
+}
+
+.fc-highlight-500 {
+  color: #A9003D;
+}
+
+.fc-shadow {
+  color: #E6E6E6;
+}
+
+.fs-xx-smal {
+  font-size: 0.75rem;
+}
+
+.fs-x-small {
+  font-size: 1rem;
+}
+
+.fs-small {
+  font-size: 1.25rem;
+}
+
+.fs-medium {
+  font-size: 500;
+}
+
+.fs-large {
+  font-size: 2rem;
+}
+
+.fs-x-large {
+  font-size: 3.375rem;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semi-bold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.ft-upper {
+  text-transform: uppercase;
+}
+
+.bg-medium {
+  background: #696969;
+}
+
+.bg-dark {
+  background: #121212;
+}
+
+.bg-highlight-100 {
+  background: #FF669D;
+}
+
+.bg-highlight-500 {
+  background: #A9003D;
+}
+
+.bg-shadow {
+  background: #E6E6E6;
+}
+
+.inner-section {
+  margin: 0.05rem;
+}
+
+.section-flex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-grid-x1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.section-grid-x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-grid-x3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+  display: block;
+}
+
+.padding-x1 {
+  padding: 1rem;
+}
+
+.padding-x2 {
+  padding: 2rem;
+}
+
+.padding-x3 {
+  padding: 3rem;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-nav li {
+  padding: 0.5rem;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.button {
+  color: white;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  background: #A9003D;
+  border: none;
+  border-radius: 1rem;
+}
+
 /* Box sizing rules */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  margin: 0;
 }
 
 /* Remove default margin */
@@ -23,7 +179,7 @@ dd {
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+/* Remove list styles on ul, ol elements with a list role */
 ul[role=list],
 ol[role=list] {
   list-style: none;
@@ -36,9 +192,8 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
 }
 
 /* A elements that don't have a class get default styles */

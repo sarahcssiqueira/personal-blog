@@ -1,12 +1,12 @@
 /* Imports */
 
-@import "./variables";
+@import "./variables", "./classes", "./sections", "./extras";
 
 /* Box sizing rules */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  margin:0;
 }
 
 /* Remove default margin */
@@ -25,7 +25,7 @@ dd {
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+/* Remove list styles on ul, ol elements with a list role */
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
@@ -38,9 +38,8 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  font-family: $font-primary;
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
 }
 
 /* A elements that don't have a class get default styles */

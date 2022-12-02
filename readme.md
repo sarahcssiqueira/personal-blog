@@ -14,9 +14,9 @@ The pages structure,
 
 ### CSS Stylesheet (Using SASS)
 
-Define variables: colors, font familys, sizes, weights.
-Utility classes
-Partials
+- Define variables: colors, font familys, sizes, weights.
+- Utility classes
+- Partials
 
 ## Step 3 - Transform the prototype in a WordPress Theme
 
@@ -32,9 +32,9 @@ The theme will require:
 
 ### Essential files
 
-Index.php
-Style.css
-Functions.php 
+- Index.php
+- Style.css
+- Functions.php 
 
 ### Template Parts
 

@@ -1,0 +1,21 @@
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    li {
+        padding: 0.5rem;
+    }
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.button {
+    color:$color-light;
+    font-size:$font-small;
+    text-transform: uppercase;
+    background: $color-highlight-500;
+    border: none;
+    border-radius:1rem;
+}
