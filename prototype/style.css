@@ -1,4 +1,8 @@
 /* Imports */
+.fc-light {
+  color: white;
+}
+
 .fc-medium {
   color: #696969;
 }
@@ -17,6 +21,10 @@
 
 .fc-shadow {
   color: #E6E6E6;
+}
+
+.fs-xxx-smal {
+  font-size: 0.5rem;
 }
 
 .fs-xx-smal {
@@ -63,6 +71,10 @@
   text-transform: uppercase;
 }
 
+.fa-justify {
+  text-align: justify;
+}
+
 .bg-medium {
   background: #696969;
 }
@@ -98,9 +110,28 @@
   flex-direction: row;
 }
 
+.section-flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-flex-row-sb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .section-flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.section-flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-grid-x1 {
@@ -122,6 +153,10 @@
   display: block;
 }
 
+.padding-x05 {
+  padding: 0.5rem;
+}
+
 .padding-x1 {
   padding: 1rem;
 }
@@ -132,6 +167,16 @@
 
 .padding-x3 {
   padding: 3rem;
+}
+
+.margin-tb-x1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.margin-lr-x1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .header-nav {
@@ -154,6 +199,31 @@
   background: #A9003D;
   border: none;
   border-radius: 1rem;
+}
+
+.featured-home-image {
+  width: auto;
+  vertical-align: middle;
+}
+
+.featured-section-image {
+  border-radius: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  color: white;
+}
+.social-icons i {
+  font-size: 2rem;
+  padding: 0.2rem;
+}
+
+.tags {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 /* Box sizing rules */
@@ -197,9 +267,8 @@ body {
 }
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+a {
+  text-decoration: none;
 }
 
 /* Make images easier to work with */

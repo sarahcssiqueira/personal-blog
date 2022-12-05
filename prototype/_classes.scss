@@ -1,5 +1,7 @@
 // Font Colors // 
-
+.fc-light {
+    color:$color-light;
+}
 .fc-medium {
     color:$color-medium;
 }
@@ -17,10 +19,12 @@
 }
 
 // Font Sizes //
+.fs-xxx-smal {
+    font-size: $font-xxx-small;
+}
 .fs-xx-smal {
     font-size: $font-xx-small;
 }
-
 .fs-x-small {
     font-size:$font-x-small;
 }
@@ -53,10 +57,13 @@
 }
 
 
-//Transformation //
+//Transformation and Alignment //
 
 .ft-upper {
     text-transform: uppercase;
+}
+.fa-justify {
+    text-align: justify;
 }
 
 // Background Colors //
@@ -76,7 +83,3 @@
 .bg-shadow {
     background: $color-shadow;
 }
-
-
-
-

@@ -1,21 +1,36 @@
 .inner-section {
     margin: 0.05rem;
 }
+
 // Flex //
 .section-flex-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .section-flex-row {
     display: flex;
     flex-direction: row;
 }
-
+.section-flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.section-flex-row-sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .section-flex-column {
     display: flex;
     flex-direction: column;
+}
+.section-flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 // Grid //
@@ -23,17 +38,14 @@
     display: grid;
     grid-template-columns: 1fr;
 }
-
 .section-grid-x2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .section-grid-x3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 .grid-item {
     display:block;
 }
@@ -41,14 +53,25 @@
 // Spacing //
 
 // Padding //
+.padding-x05 {
+    padding:0.5rem;
+}
 .padding-x1 {
     padding:1rem;
 }
-
 .padding-x2 {
     padding: 2rem;
 }
-
 .padding-x3 {
     padding:3rem;
+}
+
+//Margin //
+.margin-tb-x1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.margin-lr-x1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }

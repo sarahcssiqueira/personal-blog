@@ -19,3 +19,28 @@
     border: none;
     border-radius:1rem;
 }
+
+.featured-home-image {
+    width: auto;
+    vertical-align: middle;
+}
+
+.featured-section-image {
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    color: $color-light;
+    i {
+        font-size: $font-large;
+        padding: 0.2rem;
+    }
+}
+
+.tags {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
