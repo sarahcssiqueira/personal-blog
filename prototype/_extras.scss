@@ -12,6 +12,7 @@
 .nav-wrapper {
     display: flex;
 }
+
 .mobile-nav {
     display:none;
 }
@@ -42,7 +43,6 @@
         display: block;
     }
 
-
     .nav-list {
         padding: 1rem;
         display: grid;
@@ -64,9 +64,7 @@
     .mobile-nav .icon-close {
         display: none;
     }
-
 }
-
 
 .visually-hidden {
     position: absolute;

@@ -17,29 +17,29 @@
             </div>
         </div>
 
-        <nav class="header-nav">
-            <ul role="list" class="header-nav">
-                <li class="fs-small fc-dark fw-medium">
-                    <a href="./about.html" class="">About</a>
-                </li>
-                <li class="fs-small fc-dark fw-medium">
-                    <a href="./blog.html" class="">Blog</a>
-                </li>
-                <li class="fs-small fc-dark fw-medium">
+        <div class="nav-wrapper">
+            <button class="mobile-nav" aria-controls="header-nav" aria-expanded="false">
+                <i class="fa-solid fa-bars icon-hamburguer" aria-hidden="true"></i>
+                <i class="fa-solid fa-xmark icon-close" aria-hidden="true"></i>
+                <span class="visually-hidden">Menu</span>
+            </button>
+            
+            <nav class="header-nav" id="header-nav">
+                <ul role="list" class="nav-list">
+                    <li class="fs-x-small fc-dark fw-medium">
+                        <a href="./about.html" class="">About</a>
+                    </li>
+                    <li class="fs-x-small fc-dark fw-medium">
+                        <a href="./blog.html" class="">Blog</a>
+                    </li>
+                    <li class="fs-x-small fc-dark fw-medium">
                     <a href="./projects.html" class="">Projects</a>
-                </li>
-                <li class="fs-small fc-dark fw-medium">
-                    <a href="" class=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                </li>
-            </ul>
-        </nav>
-        <div class="mobile-nav">
-            <button class="mobile-menu-hamburguer">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-            <button class="mobile-menu-close">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
+                    </li>
+                    <li class="fs-x-small fc-dark fw-medium">
+                        <a href="" class=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
         
     </header>
@@ -119,6 +119,8 @@
             <i class="fa-brands fa-figma"></i>
         </div>
     </footer>
+
+    <script src="./js/main.js"></script>
 
 </body>
 </html>
