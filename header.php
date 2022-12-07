@@ -40,7 +40,7 @@
             <nav class="header-nav" id="header-nav">
                 <ul role="list" class="nav-list">
 
-                 <!-- Check for Class Walkers {} -->
+                 <!-- In the future, improve it using class Walker {} -->
 
                     <?php wp_nav_menu (
                         array (
@@ -51,7 +51,7 @@
                         )
                         ); ?>
 
-<!--                         
+                    <!--                            
 
                     <li class="fs-x-small fc-dark fw-medium">
                         <a href="./about.html" class="">About</a>
@@ -64,7 +64,9 @@
                     </li>
                     <li class="fs-x-small fc-dark fw-medium">
                         <a href="" class=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                    </li> -->
+                    </li> 
+                    -->
+                    
                 </ul>
             </nav>
         </div>

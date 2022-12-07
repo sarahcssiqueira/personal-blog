@@ -1,13 +1,13 @@
 <?php
 
 /**
- * The template for displaying 404 pages.
+ * The template for displaying a 404 page.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  */
-
-get_header();?>
+?>
+<?php get_header();?>
 
 <div class="inner-section padding-x3">
 

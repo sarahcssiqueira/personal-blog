@@ -283,7 +283,9 @@
 .social-icons {
   color: white;
 }
-.social-icons i {
+.social-icons i,
+.social-icons a {
+  color: white;
   font-size: 2rem;
   padding: 0.2rem;
 }
@@ -334,7 +336,7 @@ body {
   min-height: 100vh;
 }
 
-/* A elements that don't have a class get default styles */
+/* A elements get default styles */
 a {
   text-decoration: none;
 }

@@ -101,7 +101,9 @@
 
 .social-icons {
     color: $color-light;
-    i {
+    i,
+    a {
+        color:$color-light;
         font-size: $font-large;
         padding: 0.2rem;
     }
