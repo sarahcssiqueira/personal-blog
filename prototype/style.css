@@ -286,6 +286,14 @@
   margin: 0.5rem;
 }
 
+.line-after-highlight-500::after {
+  content: "";
+  display: block;
+  background: #A9003D;
+  width: 40px;
+  height: 5px;
+}
+
 /* Box sizing rules */
 *,
 *::before,

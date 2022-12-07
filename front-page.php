@@ -29,7 +29,7 @@
         </section>
         
         <section class="inner-section padding-x3">
-            <h2 class="fs-medium fw-bold fc-highlight-500">
+            <h2 class="fs-medium fw-bold fc-highlight-500 line-after-highlight-500::after">
                 Latest Articles
             </h2>
             <div class="section-grid-x2">
@@ -72,7 +72,7 @@
         </section>
 
         <section class="inner-section padding-x3">
-            <h2 class="fc-highlight-500 fs-medium fw-bold">
+            <h2 class="fc-highlight-500 fs-medium fw-bold line-after-highlight-500::after">
                 Latest Projects
             </h2>
             <div class="section-grid-x3">

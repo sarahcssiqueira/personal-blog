@@ -19,6 +19,9 @@
             <a href="https://www.figma.com/@sarahcssiqueira" class="">
                 <i class="fa-brands fa-figma"></i>
             </a>
+            <a href="https://codepen.io/sarahcssiqueira">
+                <i class="fa-brands fa-codepen"></i>
+            </a>
         </div>
     </footer>
     <?php wp_footer();?>
